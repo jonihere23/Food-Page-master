@@ -1,0 +1,388 @@
+body {
+  @import url("https://fonts.googleapis.com/css2?family=PT+Serif:ital,wght@0,400;0,700;1,400;1,700&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
+}
+/* Head */
+ul {
+  list-style: none;
+  padding: 0;
+}
+.head {
+  background-color: #e1e4eb;
+  background-image: url(/head\ img\ 3.jpg);
+  background-repeat: no-repeat;
+  padding-bottom: 300px;
+
+  background-position: top;
+}
+.topbar-row {
+  font-size: 16px;
+  font-weight: 500;
+}
+.social-icons {
+  font-size: 20px;
+}
+
+.follow-us > p {
+  margin-left: 110px;
+}
+.f-us {
+  margin-right: 10px;
+  margin-left: 10px;
+}
+.nave-icon-1 {
+  border-radius: 50px;
+  height: 30px;
+  width: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.logo {
+  color: #3cb815;
+  font-family: "PT Serif", serif;
+  font-weight: 800;
+  font-style: normal;
+}
+.logo-color {
+  color: #f65005;
+}
+
+.nave-menu {
+  font-size: 17px;
+  font-weight: 500;
+}
+
+.nave-row {
+  margin-top: -20px;
+}
+.head-img {
+  font-family: "PT Serif", serif;
+  font-weight: 400;
+  font-style: normal;
+  display: none;
+}
+.head-img > img {
+  height: 750px;
+  margin-top: -60px;
+  margin-left: -192px;
+}
+.head-text > h1 {
+  font-size: 80px;
+  margin-top: 160px;
+  font-family: "PT Serif", serif;
+  font-weight: 600;
+  font-style: normal;
+  color: black;
+}
+.main-btn {
+  margin-top: 25px;
+  padding: 0;
+  font-size: 20px;
+}
+.head-btn {
+  color: #ffffff;
+  padding: 15px 50px;
+  border-radius: 50px;
+  font-weight: 600;
+  font-size: 17px;
+}
+
+.head-btn:hover {
+}
+.btn-green {
+  background-color: #3cb815;
+}
+
+.btn-green:hover {
+  background-color: #259d00;
+  color: white;
+}
+.btn-orange {
+  background-color: #f65005;
+  margin-left: 15px;
+}
+
+.btn-orange:hover {
+  background-color: #d24300;
+  color: #ffffff;
+}
+
+/* About */
+
+.about-cont {
+  margin-top: 150px;
+}
+
+.about-img > img {
+  height: 595px;
+  width: 550px;
+  margin-right: 20px;
+}
+
+.about-text > h1 {
+  font-family: "PT Serif", serif;
+  font-weight: 800;
+  font-style: normal;
+  font-size: 55px;
+}
+
+.about-text > p {
+  font-size: 18px;
+  font-weight: 400;
+  color: rgb(85, 85, 85);
+}
+
+.about-text > ul {
+  font-size: 18px;
+  color: rgb(85, 85, 85);
+  font-weight: 400;
+}
+
+.ul-icon {
+  color: #3cb815;
+  font-weight: 800;
+}
+
+/* Our Features */
+
+.line {
+  border-bottom: 3px solid;
+  margin: 0 auto;
+}
+.line-green {
+  width: 65px;
+  margin-top: 100px;
+  border-bottom: 3px solid #3cb815;
+}
+.line-oringe {
+  width: 90px;
+  margin-top: 10px;
+  border-bottom: 2px solid #f65005;
+}
+
+.features-text > h1 {
+  font-family: "PT Serif", serif;
+  font-weight: 800;
+  font-style: normal;
+  font-size: 50px;
+  color: black;
+}
+.features-text > p {
+  width: 600px;
+  color: rgb(85, 85, 85);
+  text-align: center;
+}
+
+.our-features {
+  background-color: #e1e4eb;
+  background-image: url(/Features\ bg.png);
+  background-repeat: no-repeat;
+  margin-top: 200px;
+  height: 820px;
+}
+.Features-icon {
+  font-size: 100px;
+  color: #3cb815;
+  font-weight: 100;
+}
+
+.Features-card {
+  padding: 10px;
+}
+
+.Features-title {
+  font-family: "PT Serif", serif;
+  font-weight: 800;
+  font-style: normal;
+  font-size: 25px;
+}
+
+.Features-title > p {
+  text-align: center;
+}
+.Features-button {
+  border: 2px solid;
+  background-color: white;
+  color: #3cc413;
+  border-radius: 50px;
+  padding: 7px 25px;
+}
+.Features-button:hover {
+  background-color: #3cb815;
+}
+
+/* Our Products */
+
+.tag {
+  position: absolute;
+  top: 20px;
+  left: 20px;
+  background-color: #f65005;
+  color: white;
+  border-radius: 0;
+  font-size: 17px;
+  font-weight: 400;
+}
+
+.g-line {
+  border-bottom: 1px solid !important;
+  border-color: #3cb815 !important;
+  width: 70px !important;
+  margin-bottom: 10px;
+}
+
+.o-line {
+  border-bottom: 2px solid !important;
+  border-color: #f65005 !important;
+  width: 100px !important;
+  margin-bottom: 15px;
+}
+
+.product-head-text {
+  padding-top: 100px;
+}
+
+.product-head-text > h1 {
+  font-family: "PT Serif", serif;
+  font-weight: 800;
+  font-style: normal;
+  font-size: 55px;
+  color: black;
+}
+
+.product-head-text > span {
+  display: block;
+  border: 1px solid;
+  width: 20px;
+  height: 2px;
+}
+
+.prd-top-btn {
+  border: 2px solid #259d00;
+  font-size: 18px;
+  font-weight: 600;
+}
+
+.prd-top-btn:hover {
+  background-color: #3cb815;
+  color: #ffffff;
+}
+.p-b-2 {
+  background-color: #3cb815;
+  color: white;
+}
+
+.card-body > h3 {
+  text-align: center;
+  font-family: "PT Serif", serif;
+  font-weight: 800;
+  font-style: normal;
+  font-size: 25px;
+}
+
+.products-card > p {
+  text-align: center;
+  color: #3cc413;
+  font-size: 17px;
+  font-weight: 600;
+}
+
+.card-footer {
+  border-top: 1px solid rgb(224, 224, 224);
+  text-align: center;
+}
+.border-left {
+  border-left: 1px solid rgb(226, 226, 226);
+}
+
+.footer-icon {
+  color: #3cc413;
+  font-size: 18px;
+}
+
+/* Visit Firm */
+
+.visit-firm {
+  background-color: #3cc413;
+  background-image: url(/bg-icon.png);
+  margin-top: 100px;
+  color: white;
+  padding: 100px 0px;
+}
+.firm > h1 {
+  font-family: "PT Serif", serif;
+  font-weight: 800;
+  font-style: normal;
+  font-size: 51px;
+}
+
+/* Customer Review */
+.customer-review {
+  background-color: #e1e4eb;
+  background-image: url(/bg-icon.png);
+  padding-bottom: 100px;
+}
+
+.border {
+  position: static;
+  color: rgb(81, 81, 81);
+  width: 1000px;
+  margin: 0 auto;
+  font-size: 30px;
+  font-weight: 400;
+}
+
+.filter {
+  filter: invert(1);
+}
+
+.chat {
+  color: #3cc413;
+  font-size: 70px;
+}
+.star {
+  color: #3cc413;
+}
+
+/* Latest Blog */
+
+.bg-color {
+  background-color: #f7f8fc;
+}
+
+.card-p {
+  font-family: "PT Serif", serif;
+  font-weight: bolder;
+  font-style: normal;
+  color: rgb(0, 0, 0);
+}
+
+/* footer */
+
+.food-footer {
+  background-color: #111111;
+  border-bottom: 1px solid #2d2d2d;
+  padding: 50px 0;
+  position: relative;
+}
+
+.buttom-bar {
+  background-color: #111111;
+}
+
+.email-form {
+  background-color: #111111;
+  border: 1px solid rgb(255, 255, 255);
+  position: relative;
+}
+
+.footer-button {
+  left: 10px;
+  top: 10px;
+  background-color: #3cc413;
+  position: absolute;
+  left: 1297px;
+  top: 226px;
+  color: white;
+  padding: 10px;
+}
